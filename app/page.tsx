@@ -81,24 +81,24 @@ const IndexPage: NextPage = () => {
           </Link>
 
           {/* 예약 확인 버튼 */}
-          <Link href="#" style={{ textDecoration: 'none' }}>
-            <div style={{
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              justifyContent: 'center',
-              padding: '25px 10px',
-              backgroundColor: '#ff69b4',
-              color: 'white',
-              borderRadius: '20px',
-              cursor: 'pointer',
-              height: '100%',
-              boxShadow: '0 4px 10px rgba(255, 105, 180, 0.2)'
-            }}>
-              <span style={{ fontSize: '32px', marginBottom: '10px' }}>🔍</span>
-              <span style={{ fontWeight: 'bold', fontSize: '14px' }}>예약 확인</span>
-            </div>
-          </Link>
+<Link href="/check" style={{ textDecoration: 'none' }}>
+  <div style={{
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: '25px 10px',
+    backgroundColor: '#ff69b4',
+    color: 'white',
+    borderRadius: '20px',
+    cursor: 'pointer',
+    height: '100%',
+    boxShadow: '0 4px 10px rgba(255, 105, 180, 0.2)'
+  }}>
+    <span style={{ fontSize: '32px', marginBottom: '10px' }}>🔍</span>
+    <span style={{ fontWeight: 'bold', fontSize: '14px' }}>예약 확인</span>
+  </div>
+</Link>
 
         </div>
 
